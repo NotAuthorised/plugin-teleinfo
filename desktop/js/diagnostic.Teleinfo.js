@@ -4,7 +4,7 @@ $( document ).on( "click", ".btn", function() {
   $.ajax({
   async:true,
   global : false,
-  url: 'plugins/teleinfo/core/ajax/teleinfo.ajax.php',
+  url: 'plugins/Teleinfo/core/ajax/Teleinfo.ajax.php',
   data: {
       action:'diagnostic_step' + temp
       },
